@@ -1,0 +1,152 @@
+body{
+    background-color: black;
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+@media screen and (max-width: 600px){
+    ul li.right,
+    ul li{float:none;}
+}
+#logoButton{
+    color: white;
+    font-family: BankGothic Lt BT;
+    font-size: 42px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: Black;
+    border: none;   
+}
+#rightRectangle{
+    width: 80px;
+    height: 700px;
+    float: right;
+    background-color: #6F2A05;
+    margin-top: 0px;
+    opacity: 100%;
+}
+.v1{
+  border-left: 1px;
+  height: 1px;
+  background-color: white;
+  margin: 10px;
+}
+#igButton{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    opacity: 50%;
+    border: 2px solid White;
+    transition-duration: 0.4s;
+    color: white;
+    margin-left: 25%;
+    margin-top: 10%;
+    opacity: 100%;
+}
+#igButton:hover{
+    background-color:white;
+    color: black;
+}
+#twitterButton{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    opacity: 50%;
+    border: 2px solid White;
+    transition-duration: 0.4s;
+    color: white;
+    margin-left: 25%;
+    margin-top: 50%;
+    opacity: 100%;
+}
+#twitterButton:hover{
+    background-color:white;
+    color: black;
+}
+    #linkedinButton{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    opacity: 50%;
+    border: 2px solid White;
+    transition-duration: 0.4s;
+    color: white;
+    margin-left: 25%;
+    margin-top: 50%;
+    opacity: 100%;
+}
+#linkedinButton:hover{
+    background-color:white;
+    color: black;
+}
+.v2{
+    border-left: 1px;
+    height: 1px;
+    background-color: white;
+    margin: 10px;
+}
+#exploreButton{
+    display: inline-block;
+    transform: rotate(90deg);
+    width: 150px;
+
+    margin-top: 120%;
+    margin-right: -100px;
+    margin-left: -40%;
+
+    border: 0px;    
+    background-color: transparent;
+    color: white;
+
+    font-size: 20px;
+    font-family: BankGothic Lt BT;
+
+}
+#exploreButton:hover{
+    background-color:white;
+    color: black;
+}
+#shareButton{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    opacity: 50%;
+    border: 2px solid White;
+    transition-duration: 0.4s;
+    color: white;
+    margin-left: 25%;
+    margin-top: 150%;
+    opacity: 100%;
+}
+#shareButton:hover{
+    background-color:white;
+    color: black;
+}
+#questionButton{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    opacity: 50%;
+    border: 2px solid White;
+    transition-duration: 0.4s;
+    color: white;
+    margin-left: 25%;
+    margin-top: 25%;
+    opacity: 100%;
+}
+#questionButton:hover{
+    background-color:white;
+    color: black;
+}
+.v3{
+    border-left: 1px;
+    height: 1px;
+    background-color: white;
+    margin: 10px; 
+    margin-top: 10px;
+}
