@@ -19,7 +19,7 @@ body{
 }
 #rightRectangle{
     width: 80px;
-    height: 800px;
+    height: 100%;
     float: right;
     background-color: #6F2A05;
     margin-top: 0px;
