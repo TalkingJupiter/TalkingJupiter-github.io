@@ -1,7 +1,7 @@
 html,body{
     margin:0px;
     background-color: white;
-    overflow: hidden; /* Hide scrollbars */
+    overflow: block; /* Hide scrollbars */
 }
 #btn001{
     background-color: transparent;
@@ -11,7 +11,6 @@ html,body{
     
 }
 .nav-links {
-
     list-style-type: none;
     margin: 7px;
     padding: 0;
@@ -95,27 +94,35 @@ h5{
     margin-top: 60px;
     margin-left: 50px;    
 }
+#comingsoon{
+    margin-left:180px; 
+    margin-top:-50px;
+}
 
 @media only screen and (max-width: 415px){
     
-    .nav-links{
-        display:none;
+    #btn001{
+        font-size: 25px;
     }
-
-    .line{
-        width: 30px;
-        height: 4px;
-        background-color:black;
-        margin: 5px;
-        padding-left: 0px;
+    h1{
+        margin-top: -350px;
     }
-    .hamburger{
-        margin-top: 10px;
-        margin-left: 5px;
-    }
-
     #rectangle002{
+        display:block;
+        width: 400px;
+        height: 270px;
+        
+    }
+    h5{
         display:none;
     }
-    
+    #rectangle001{
+        margin-top: 350px;
+    }
+    #comingsoon{
+        width: 400px;
+        height: 270px;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
 }
