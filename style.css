@@ -247,7 +247,18 @@ h5{
 ::placeholder {
     text-align: center; 
  }
-@media only screen and (max-width: 415px){
+
+@media only screen and (max-width: 358px) {
+    #rectangle002{
+        display: none;
+    }
+    ul, h1, div{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 359px) and (max-width: 415px){
     
     #btn001{
         font-size: 25px;
@@ -256,16 +267,14 @@ h5{
         margin-top: -350px;
     }
     #rectangle002{
-        display:block;
-        width: 350px;
-        height: 270px;
+        display:none;
         
     }
     h5{
         display:none;
     }
     #rectangle001{
-        margin-top: 350px;
+        margin-top: 50px;
     }
     .updateRectngl{ /* Change for the smaller screens */
         height: 500px;
@@ -273,9 +282,12 @@ h5{
         display: block;
         background-color: black;
     }
-    #comingsoon{
-        margin-top: 10px;
-        margin-left: 200px;
-    }
 
 }
+
+@media only screen and (min-width:416px) and (max-width: 984px){
+    #rectangle002{
+        display: none;
+    }
+}
+
