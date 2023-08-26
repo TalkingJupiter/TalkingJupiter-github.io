@@ -16,7 +16,7 @@ body::-webkit-scrollbar{
 }
 
 header {
-  background-color: #000;
+  background-color: #091020;
   padding: 20px 0;
 }
 
@@ -207,6 +207,65 @@ footer {
 .text {
   font-size: 1rem;
 }
+
+
+
+.container{
+  width: auto;
+  height: auto;
+  margin: 10px ;
+  display: flex;
+}
+
+.ai-container{
+  min-width: 100px;
+  width: 50vw;
+  height: auto;
+  background-color: #263966;
+  border-radius: 20px;
+  margin: 2%;
+  
+}
+.brain{
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 7%;
+  height: 60%;
+  width: 90%;
+  overflow: auto;
+}
+#aibtn{
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+.virtual-reality-container{
+  width: 50vw;
+  height: 70vh;
+  background-color: #263966;
+  border-radius: 20px;
+  margin: 2%;
+  margin-left: 0%;
+}
+
+.vr{
+  border: none;
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 59%;
+  margin-top: 7%;
+}
+
+#vrbtn{
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
+
+
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
