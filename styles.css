@@ -6,9 +6,13 @@ body, h1, h2, h3, p, ul, li {
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #1a1a1a;
+  background-color: #101D3C;
   color: #fff;
+  scrollbar-width: none;
 
+}
+body::-webkit-scrollbar{
+  display: none;
 }
 
 header {
@@ -34,7 +38,7 @@ nav a:hover {
 }
 
 .hero {
-  background-image: url('hero-background.jpg');
+  background-image: url('hero-background.jpg'); /* Find out what was this!*/
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -76,7 +80,7 @@ nav a:hover {
 }
 
 .service-card {
-  background-color: #333;
+  background-color: #263966;
   padding: 40px;
   border-radius: 10px;
   margin: 0 20px;
