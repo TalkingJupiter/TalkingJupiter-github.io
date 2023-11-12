@@ -1,6 +1,7 @@
 
 var tablinks = document.getElementsByClassName('tab-links');
 var tabcontents = document.getElementsByClassName('tab-contents');
+var sidemenu = document.getElementsByClassName('sidemenu');
 
 function opentab(tabname){
     for(tablink of tablinks){
@@ -10,5 +11,17 @@ function opentab(tabname){
         tabcontent.classList.remove('active-tab');
     }
     event.currentTarget.classList.add('active-link');
-    document.getElementById(tabname).classList.add('active-tab')
+    document.getElementById(tabname).classList.add('active-tab');
+}
+
+
+
+// Responsive side navbar
+
+
+function openmenu(){
+    sidemenu.style.right = '0';
+}
+function closemenu(){
+    sidemenu.style.right = '-200px';
 }
