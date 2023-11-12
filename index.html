@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>TalkingJupiter</title>
     <script src="https://kit.fontawesome.com/109ec0b5c7.js" crossorigin="anonymous"></script>
 </head>
@@ -11,7 +12,7 @@
 <div id="header">
     <div class="container">
         <nav>
-            <img src="/images/logo.png" class="logo"> <!--TODO: Add the logo-->
+            <img src="/images/logo.png" class="logo">
             <ul id="sidemenu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Me</a></li>
@@ -23,6 +24,48 @@
         <div class="header-text">
             <p>UI/UX Design</p>
             <h1>Hi, I'm <span>Batuhan</span><br> Sencer From Turkey</h1>
+        </div>
+    </div>
+</div>
+
+<!-------About Me---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/jupiter.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'm Batuhan. Currently I'm a computer science student at Texas Tech and I love coding!</p>
+
+                <div class="tab-titles">
+                    <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                    <div class="tab-links" onclick="opentab('education')">Education</div>
+                    <div class="tab-links" onclick="opentab('certification')">Certification</div>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-2027 Texas Tech</span><br>Bachelor Degree on Computer Science</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certification">
+                    <ul>
+                        <li><span>IBM</span><br>Python for Data Science, AI & Development<br><a href="https://coursera.org/verify/APCFBUGQHHK9" target="_blank"><i class="fa-regular fa-arrow-up-right-from-square"></i> See Certificate</a></li>
+                        <li><span>IBM</span><br>Introduction to DevOps<br><a href="https://coursera.org/verify/SVB9TBSLAEZJ" target="_blank"><i class="fa-regular fa-arrow-up-right-from-square"></i> See Certificate</a></li>
+                        <li><span>IBM</span><br>Introduction to Agile Development and Scrum<br><a href="https://coursera.org/verify/RG8HZN2CUL3H" target="_blank"><i class="fa-regular fa-arrow-up-right-from-square"></i> See Certificate</a></li>
+                        <li><span>IBM</span><br>Hands-on Introduction to Linux Commands and Shell Scripting<br><a href="https://coursera.org/verify/FT3THLVM5SMP" target="_blank"><i class="fa-regular fa-arrow-up-right-from-square"></i> See Certificate</a></li>
+                        <li><span>IBM</span><br>Introduction to Cloud Computing<br><a href="https://coursera.org/verify/4BEM9526TZCZ" target="_blank"><i class="fa-regular fa-arrow-up-right-from-square"></i> See Certificate</a></li>
+                        <li><span>Meta</span><br>Introduction to iOS Mobile Application Development<br><a href="https://coursera.org/verify/7232KXXN6MC4" target="_blank"><i class="fa-regular fa-arrow-up-right-from-square"></i> See Certificate</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
